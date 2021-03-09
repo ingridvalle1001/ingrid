@@ -1,24 +1,89 @@
-<!DOCTYPE html>
-<html>
-    <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-      <title>Ingrid Valle</title>
-    </head>
+<html lang="en">
 
-    <body>
-<link rel="stylesheet"
-       href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-      <link rel="stylesheet" href="styles.css">
-      <h1>Ingrid Valle</h1>
-    <a href="https://imgur.com/KBlZzVk"> <img src="https://imgur.com/KBlZzVk"
-        title="imgur.com" width="150px" height="auto" alt="me">
-    </a>
-    <p>
-      My name is Ingrid Valle; I'm an undergraduate student at Eastern
-      Washington University. I study traditional graphic design and web design. I am from Whidbey Island, WA but have been living in Spokane
-      for a hot second. I love what I do, I don't know what else to say. Welcome to my website ! 
-    </p>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>document</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
+  <link rel="manifest" href="/favicons/site.webmanifest" />
+  <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5" />
+  <meta name="msapplication-TileColor" content="#000000" />
+  <meta name="theme-color" content="#ffffff" />
+
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
+  <link rel="stylesheet" href="/css/styles.css" />
+
+  <link rel="stylesheet" href="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/css/lightgallery.css">
+</head>
+
+<body>
+
+  <section>
+    <h1>Ingrid Valle</h1>
+
+    <img src="https://i.imgur.com/KBlZzVk.jpg?1" alt="meee" />
+
+    <article>
+      Welcome to my website! Bless this mess.
+      I am about to graduate from EWU this spring! I hope to move closer to my hometown on Whidbey Island, WA some day but for now I am hanging out in the beautiful Spokane area.
+    </article>
+  </section>
+
+  <section>
+    <div id="portfolioGallery">
+      <a href="https://picsum.photos/1080">
+        <img src="https://picsum.photos/1080" alt="one">
+      </a>
+      <a href="https://picsum.photos/1080">
+        <img src="https://picsum.photos/1080" alt="two">
+      </a>
+      <a href="https://picsum.photos/1080">
+        <img src="https://picsum.photos/1080" alt="three">
+      </a>
+      <a href="https://picsum.photos/1080">
+        <img src="https://picsum.photos/1080" alt="four">
+      </a>
+      <a href="https://picsum.photos/1080">
+        <img src="https://picsum.photos/1080" alt="five">
+      </a>
+      <a href="https://picsum.photos/1080">
+        <img src="https://picsum.photos/1080" alt="six">
+      </a>
+    </div>
+  </section>
+
+  <section>
+
+    <h2>Fill This Out</h2>
+    <form name="contact" method="post" data-netlify="true" action="/thanks.html">
+      <p>
+        <label>your name: <input type="text" name="name" required /></label>
+      </p>
+
+      <p>
+        <label>your email: <input type="email" name="email" required /></label>
+      </p>
+
+      <p>
+        <label>say something: <textarea name="message" required></textarea></label>
+      </p>
+
+      <p>
+        <button type="submit">send it</button>
+      </p>
+    </form>
+  </section>
+  <script src="/js/scripts.js"></script>
+
+  <script src="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/js/lightgallery.js"></script>
+
+  <script type="text/javascript">
+    lightgallery(document.getElementById('portfoliogallery'));
+  </script>
+</body>
+
 </html>

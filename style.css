@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap");
+
+body {
+  margin: auto;
+  max-width: 720px;
+  text-align: center;
+  background: #ebfa64;
+  font-family: "Homemade Apple";
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 25px;
+  font-family: "Homemade Apple";
+}
+
+p {
+  font-family: "Josefin Sans";
+}
+
+article {
+  text-align: center;
+  font-family: "Josefin Sans";
+  font-size: 20px;
+  margin: 5px;
+  margin-bottom: 20px;
+}
+
+img {
+  height: 150px;
+  width: auto;
+}
+
+label {
+  font-size: 15px;
+}
+
+.submit {
+  font-family: "Josefin Sans";
+  font-size: 10px;
+}
+
+div.lg-item,
+div.lg-loaded,
+div.lg-current,
+div.lg-complete {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
